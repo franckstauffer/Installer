@@ -1,0 +1,11 @@
+{
+	"name": "rbschange/installer",
+	"type": "composer-installer",
+	"license":"AGPL-3.0",
+	"autoload": {
+          "psr-0": {"Installer\\Composer": "Composer/"}
+      },
+      "extra": {
+          "class": "Installer\\Composer\\RbsChangeInstaller"
+      }
+}
